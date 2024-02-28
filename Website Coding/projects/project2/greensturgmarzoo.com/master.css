@@ -1,0 +1,18 @@
+body {
+	background-color:#e3ffeb;
+	font-family:arial;
+}
+
+h1 {
+	font-family:Papyrus;
+}
+
+#name-bg {
+	background-color:lightgreen;
+}
+
+.spec-change {
+	color:red;
+	font-size:15pt;
+	background-color:black;
+}

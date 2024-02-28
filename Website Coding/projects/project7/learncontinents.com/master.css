@@ -1,0 +1,164 @@
+body {
+	background-color:darkblue;
+	}
+
+#wrapper {
+	background-color:lightgreen;
+	border-radius:25px;
+	width:900px;
+	margin:auto;
+	padding:50px;
+	box-shadow:20px 20px 10px grey;
+	font-family:arial;
+	}
+
+#intro {
+	background-color:white;
+	border-radius:25px;
+	margin:20px auto;
+	padding:20px;
+	}
+
+#attribution {
+	background-color:lightgrey;
+	border-radius:25px;
+	margin:10px auto auto auto;
+	padding:20px;
+	font-size:11px;
+	}
+
+#logo {
+	margin-left:250px;
+	}
+
+
+#africa {
+	background-image: url("images/africa.jpg");
+	background-repeat:no-repeat;
+	padding-top:60px;
+	padding-bottom:60px;
+	margin-right:610px;
+	text-align:center;
+	margin-bottom:10px;
+	transform:rotate(-2deg);
+	}
+
+#antarctica {
+	background-image: url("images/antarctica.jpg");
+	background-repeat:no-repeat;
+	padding-top:60px;
+	padding-bottom:60px;
+	margin-right:610px;
+	text-align:center;
+	margin-bottom:10px;
+	transform:rotate(2deg);
+	}
+
+#asia {
+	background-image: url("images/asia.jpg");
+	background-repeat:no-repeat;
+	padding-top:60px;
+	padding-bottom:60px;
+	margin-right:610px;
+	text-align:center;
+	margin-bottom:10px;
+	transform:rotate(-3deg);
+	}
+
+#australia {
+	background-image: url("images/australia.jpg");
+	background-repeat:no-repeat;
+	padding-top:60px;
+	padding-bottom:60px;
+	margin-right:610px;
+	text-align:center;
+	margin-bottom:10px;
+	transform:rotate(3deg);
+	}
+
+#europe {
+	background-image: url("images/europe.jpg");
+	background-repeat:no-repeat;
+	padding-top:60px;
+	padding-bottom:60px;
+	margin-right:610px;
+	text-align:center;
+	margin-bottom:10px;
+	transform:rotate(-4deg);
+	}
+
+#north {
+	background-image: url("images/northamerica.jpg");
+	background-repeat:no-repeat;
+	padding-top:60px;
+	padding-bottom:60px;
+	margin-right:610px;;
+	text-align:center;
+	margin-bottom:10px;
+	transform:rotate(4deg);
+	}
+
+#south {
+	background-image: url("images/southamerica.jpg");
+	background-repeat:no-repeat;
+	padding-top:60px;
+	padding-bottom:60px;
+	margin-right:610px;
+	text-align:center;
+	margin-bottom:10px;
+	transform:rotate(-5deg);
+	}
+
+.continents {
+	background-color:lightgrey;
+	border-radius:20px;
+	padding:10px;
+	margin:auto;
+}
+
+
+ol {
+	list-style:none;
+	}
+
+h2 {
+	font-size:28px;
+	text-align:center;
+	text-decoration:underline;
+	}
+
+table {
+	float:right;
+	border-collapse:collapse;
+	}
+
+td, th {
+	border:1px solid darkblue;
+	padding:10px;
+	}
+
+tr {
+	background-color:lightblue;
+	color:darkblue;
+	}
+
+tr:first-of-type {
+	background-color:darkblue;
+	color:lightblue;
+	font-size:1.7em;
+	font-family:'Impact';
+	}
+
+form table tr td, form table tr th {
+	border: none;
+	}
+
+form table {
+	border: 1px solid darkblue;
+	}
+
+iframe {
+	clear:right;
+	float:right;
+	margin-top:20px;
+}

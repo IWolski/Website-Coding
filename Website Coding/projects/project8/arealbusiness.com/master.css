@@ -1,0 +1,151 @@
+body {
+	background-image:url('https://images.unsplash.com/photo-1525253604620-23ac591dbea0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1500&q=100');
+	background-size:cover;
+	background-attachment:fixed;
+	}
+
+#wrapper {
+	background-color:rgba(0,0,0,.90);
+	padding:50px;
+	font-family:arial;
+	color:white;
+	font-size:70%;
+	}
+
+a:link {
+	color:black;
+	}
+
+a:visited {
+	color:#555555;
+	}
+
+a:hover {
+	color:darkblue;
+	}
+
+nav {
+	padding:10px;
+	background-image:url('https://images.unsplash.com/photo-1544365558-35aa4afcf11f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8cmFpbiUyMGxpZ2h0c3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=700&q=60');
+	background-style:cover;	
+	margin-bottom:10px;
+}
+
+ul {
+	list-style:none;
+	margin:0;
+	padding:0;
+	}
+
+ul li {
+	background-color:lightgrey;
+	text-align:center;
+	margin-bottom:2px;
+	padding:5px 15px;
+	}
+
+footer {
+	margin-top:20px;
+	}
+
+table {
+	border-collapse:collapse;
+	border:1px solid white;
+	}
+
+tr {
+	background-color:rgba(255,255,255,0.07);
+	color:white;
+	}
+
+td, th {
+	padding:10px;
+	border-right: 1px solid white;
+	margin-right:20px;
+	}
+
+tr:first-of-type {
+	background-color:black;
+	color:white;
+	font-size:1.7em;
+	font-family:'arial';
+	}
+
+form table tr td {
+	border-right:none;
+	}
+
+header img {
+	transform:skewy(4deg);
+	}
+
+main img {
+	float:left;
+	margin: 0 10px 10px 0;
+	border: 1px solid white;
+	height:150px;
+	width:150px;
+	}
+
+
+@media (min-width:700px) {
+
+	#wrapper {
+		font-size:85%;
+		}
+
+	#flex_content {
+		display:flex;
+		flex-wrap:wrap;
+		flex-direction:row;
+		column-gap:20px;
+		}
+
+	#flex_nav {
+		flex:4;
+		}
+
+	#flex_main {
+		flex:6;
+		margin-left:40px;
+		}
+
+	nav {
+		height:75%;
+	}
+
+	main img {
+		height:225px;
+		width:225px;
+		}
+}
+
+@media (min-width:1000px) {
+
+	#wrapper {
+		width:900px;
+		margin:auto;
+		font-size:100%;
+		}
+
+	#flex_content {
+		display:flex;
+		flex-wrap:wrap;
+		flex-direction:row;
+		column-gap:20px;
+		}
+
+	#flex_nav {
+		flex:3;
+		}
+
+	#flex_main {
+		flex:7;
+		margin-left:40px;
+		}
+
+	main img {
+		height:300px;
+		width:300px;
+		}
+}
